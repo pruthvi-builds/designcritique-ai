@@ -32,6 +32,6 @@ describe.skipIf(!process.env.GEMINI_API_KEY)("runDesignCritique (real API)", () 
       });
       expect(CritiqueResultSchema.safeParse(result).success).toBe(true);
     },
-    30_000
+    60_000
   );
 });

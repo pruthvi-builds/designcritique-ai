@@ -4,6 +4,9 @@ import { GeminiRequestError, MissingApiKeyError, runDesignCritique } from "@/lib
 const ALLOWED_MIME_TYPES = ["image/png", "image/jpeg", "image/webp"];
 const MAX_FILE_SIZE_BYTES = 8 * 1024 * 1024; // 8MB
 
+// Structured critique generation can take longer than the platform default.
+export const maxDuration = 60;
+
 export async function POST(request: NextRequest) {
   const formData = await request.formData().catch(() => null);
   if (!formData) {

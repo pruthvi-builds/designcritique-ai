@@ -1,7 +1,7 @@
 import { GoogleGenAI, createPartFromBase64, createUserContent } from "@google/genai";
 import { HEURISTICS, GEMINI_CRITIQUE_RESPONSE_SCHEMA, CritiqueResultSchema, type CritiqueResult } from "@/lib/critique-schema";
 
-const MODEL = "gemini-2.0-flash";
+const MODEL = "gemini-3.6-flash";
 
 export class MissingApiKeyError extends Error {
   constructor() {
