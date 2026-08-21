@@ -3,8 +3,8 @@
 [![CI](https://github.com/pruthvi-builds/designcritique-ai/actions/workflows/ci.yml/badge.svg)](https://github.com/pruthvi-builds/designcritique-ai/actions/workflows/ci.yml)
 
 Upload a UI screenshot, get a real AI-powered usability heuristic
-evaluation. A personal/portfolio project. **Live demo:** _pending
-deployment — see [Deployment](#deployment) below._
+evaluation. A personal/portfolio project. **Live demo:**
+[designcritique-ai.vercel.app](https://designcritique-ai.vercel.app)
 
 ## Why
 
